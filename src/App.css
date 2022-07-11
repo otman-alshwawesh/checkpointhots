@@ -1,0 +1,17 @@
+.App {
+  text-align: center;
+}
+
+.cardimag{
+ 
+display: flex;
+justify-content: center;
+align-items: center;
+flex-wrap: wrap;
+padding: 3%;
+}
+.filter{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
