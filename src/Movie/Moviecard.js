@@ -1,11 +1,12 @@
-import React from 'react'
+import React from 'react';
+import {Link } from "react-router-dom";
 import { Card} from 'react-bootstrap';
 import Rating from './Rating';
 import "../App.css"
 function Moviecard(props) {
   return (
        
-   
+   <Link to={`movie/${props.e.id}`} state={props.e}>
      
       <Card  style={{ margin : "1%", width: '18rem' }}>
   <Card.Img variant="top" height="450px" src={props.e.imag} />
@@ -18,7 +19,7 @@ function Moviecard(props) {
   </Card.Body>
 </Card>
 
-    
+</Link>
 
   )
 }

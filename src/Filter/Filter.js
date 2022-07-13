@@ -1,5 +1,5 @@
 import React from "react";
-import "../App.css"
+import "../App.css";
 import FilterByTitle from "./Filterbytitle";
 import FilterByRating from "./Filterbyrating";
 // import "./Filter.css";
